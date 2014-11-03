@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Autree.github.io by AuTree</title>
+    <title>Derrell Beasley by AuTree</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -28,8 +28,8 @@
 
       <section>
         <div id="title">
-          <h1>Autree.github.io</h1>
-          <p>A GitHub for Derrell Beasley</p>
+          <h1>Derrell Beasley</h1>
+          <p>My Projects</p>
           <hr>
           <span class="credits left">Project maintained by <a href="https://github.com/AuTree">AuTree</a></span>
           <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
@@ -62,17 +62,36 @@ You can find descriptions for each below.</p>
 <p>Turns out, I accidentally made myself pretty well rounded. Which means there is still quite a few gaps that still need filling in. That's why I'm here. </p>
 
 <h3>
+<a name="zombie-sim-10000" class="anchor" href="#zombie-sim-10000"><span class="octicon octicon-link"></span></a><strong>Zombie Sim (10,000)</strong>
+</h3>
+
+<p><img src="http://i.imgur.com/c4zVNLU.png" alt="10,000">
+I created this simply Zombie Sim for 2 reasons. One was to get used to using XNA and another was to try out a design pattern called Spatial Partitioning. The goal was to has 10,000 creatures on screen at once checking for collision while maintaining 60fps and being single threaded.</p>
+
+<p>For fun I made them cute and added so special things. The red angry faces have weapons and can fight the zombies. If they manage to kill a zombie, the get better at killing zombies and their chance of being bitten goes down. The yellow ones are screwed. The sim starts with only 1 zombie, yet every is infected in approximately 60 secs.</p>
+
+<h3>
 <a name="road-to-heaven-current-project" class="anchor" href="#road-to-heaven-current-project"><span class="octicon octicon-link"></span></a><strong>Road to Heaven (Current Project)</strong>
 </h3>
 
 <p><img src="http://i.imgur.com/gWGCTdu.jpg" alt="">
-A simple idea for an FPS game and a coding exercise. You have 30 mins to kill and collect 10,000 souls or you will be stuck in purgatory forever (or at least until you quit). Every thing you kill grants you some additional to that death clock (based of the health of the creature you kill. Which so are the amount of souls you collect). </p>
+<strong>Update*</strong> I'm rewriting the code for Road to Heaven in C#. While also fixing a lot of design pattern issues with the code. I will be switching from using PlayerPrefs to using XML serialization to save data, better use of polymorphism, events, and encapsulation. It will be called Road to Heaven V2; since the changes are drastic even at the beginning stages I might just put it into it's own section.<em>**End Update*</em></p>
+
+<p>A simple idea for an FPS game and a coding exercise. You have 30 mins to kill and collect 10,000 souls or you will be stuck in purgatory forever (or at least until you quit). Every thing you kill grants you some additional to that death clock (based of the health of the creature you kill. Which so are the amount of souls you collect). </p>
 
 <p>There isn't a health system for the player at all. Damage done to the player takes away for the remaining time you have to live. What about upgrades? Yes, there are upgrades in the game. The player can bribe an Angel or Demon with parts of their soul (which again, is the time you have to live) in exchange for abilities. More powerful abilities will take a bigger chunk of your soul.</p>
 
 <p>The game is a wager the player makes with themselves. If they sell 15 minutes worth of the time for superPower02, do they believe they can get the return of that investment by collecting enough souls, thus giving them more time, to offset the cost. </p>
 
 <p>And the more souls you have, the more they effect you. Every 500 souls gives the player a new random trait. The trait can be good such as  or bad such as . The traits stack with each other, by the end the player will have 20 of them. Since it is random, it forces the play-through to be different every time.</p>
+
+<h3>
+<a name="jump-drive" class="anchor" href="#jump-drive"><span class="octicon octicon-link"></span></a><strong>Jump Drive</strong>
+</h3>
+
+<p><img src="http://i.imgur.com/VD1lWXA.jpg" alt="Jump Drive">
+This was my first foray into C#. It was also meant to be a test with Unity Physics and to see hard it would be to make something that resembled a game in Unity. This was when I realized that I really need to program.
+<img src="http://i.imgur.com/CpmT9Ty.png" alt="Unity's old GUI"></p>
 
 <h3>
 <a name="chaos-fang-pet-project" class="anchor" href="#chaos-fang-pet-project"><span class="octicon octicon-link"></span></a><strong>Chaos Fang (Pet Project)</strong>
